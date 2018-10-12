@@ -6,6 +6,7 @@
     <title>Users Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    
     <script src="css/main.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -19,14 +20,13 @@
     <div class="header">
         <ul>
             <a href="index.html">Logout</a>
-           
+            
         </ul>
     </div>
 <div class="sidebarnav">
         <div class="logo">
                 <span><a href="index.html"><span class="highlight-2">STORE MANAGER</span> APP</a></span>
             </div>
-            <nav>
             <ul>
                 <li class="active">
                     <a href="admin_dashboard.html">
@@ -47,7 +47,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="sales_records.html">
+                    <a href="view_products.html">
                         <span><i class="fas fa-address-book"></i></span>
                         <span>View Products</span>
                     </a>
@@ -58,84 +58,90 @@
                             <span>Sell Products</span>
                         </a>
                     </li>
-                        <li>
-                            <a href="index.html">
-                                <span><i class="fas fa-sign-out-alt"></i></i></span>
-                                <span>Logout</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                    <li>
+                        <a href="index.html">
+                            <span><i class="fas fa-sign-out-alt"></i></i></span>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
 <div class="main-navbar">
-
        </div>
 <div class="register">
     <div class="order">
-            <h4>View Products : </h4>
+            <h4>Add Product to Cart</h4>
             <hr>
                 <table class="tables">
                         <tr>
-                          
-                            <th>Product Id</th>
+                            <th>Staff Id</th>
+                            <th>Order Id</th>
                             <th>Product Name</th>
                             <th>Quantity</th>
+                            <th>Unit</th>
                             <th>Unit Price</th>
-                            <th>Inventory</th>
-                            <th>Date</th>
-                            
+                            <th>Checkout</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
+                            <td>1234</td>
                             <td>1</td>
-                            <td>Tissue</td>
-                            <td>30</td>
-                            <td>Ksh 25</td>
-                            <td>150</td>
-                            <td>2/4/2018</td>
-                          
+                            <td>Sugar</td>
+                            <td>4</td>
+                            <td>Kg</td>
+                            <td>120</td>
+                            <td><a href="#"><i class="fas fa-shopping-cart"></i></a> &emsp;&emsp;</td>
                         </tr>
 
                         <tr>
-                                <td>10</td>
-                                <td>Sugar</td>
-                                <td>100kgs</td>
-                                <td>Ksh 150</td>
-                                <td>1500kgs</td>
-                                <td>3/4/2018</td>
-                               
-                            </tr>
-    
-                            <tr>
-                                    <td>19</td>
-                                    <td>Pens</td>
-                                    <td>30</td>
-                                    <td>Ksh 25</td>
-                                    <td>300</td>
-                                    <td>4/4/2018</td>
-                                 
-                                </tr>
-        
-                                <tr>
-                                        <td>09</td>
-                                        <td>Exe Chapati</td>
-                                        <td>4 Kgs</td>
-                                        <td>Ksh 120</td>
-                                        <td>60</td>
-                                        <td>5/4/2018</td>
-                                       
-                                    </tr>
-            
-                                 
-                                            
+                            <td>12674</td>
+                            <td>100</td>
+                            <td>Cooking Oil</td>
+                            <td>12</td>
+                            <td>Litres</td>
+                            <td>140</td>
+                            <td><a href="#"><i class="fas fa-shopping-cart"></i></a> &emsp;&emsp;</td>
+                        </tr>
+                        <tr>
+                            <td>123</td>
+                            <td>51</td>
+                            <td>Rice</td>
+                            <td>40</td>
+                            <td>Kg</td>
+                            <td>120</td>
+                            <td><a href="#"><i class="fas fa-shopping-cart"></i></a> &emsp;&emsp;</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>146</td>
+                            <td>Toothpaste</td>
+                            <td>4</td>
+                            <td>gms</td>
+                            <td>200</td>
+                            <td><a href="#"><i class="fas fa-shopping-cart"></i></a> &emsp;&emsp;</td>
+                        <tr>
+                            <td>123</td>
+                            <td>81</td>
+                            <td>Salt</td>
+                            <td>4</td>
+                            <td>Kg</td>
+                            <td>40</td>
+                            <td><a href="#"><i class="fas fa-shopping-cart"></i></a> &emsp;&emsp;</td>>
+                        </tr>
+                        
                         </tbody>
                     </table>
-
+                    <div class="pagination">
+                        <a href="#">Previous</a>
+                        <a href="#">2</a>
+                        <a class="active" href="#">3</a>
+                        <a href="#">Next</a>
+                    </div>
                 </section>
-            </div>
-        
+            </div>        
         </div>
-        
+
 </body>
 </html>

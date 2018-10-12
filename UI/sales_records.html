@@ -6,7 +6,7 @@
     <title>Users Dashboard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="css/main.js"></script>
+    <script src="main.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
           integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
@@ -18,8 +18,9 @@
 <body>    
     <div class="header">
         <ul>
-            <a href="index.html">Logout</a>
-           
+            <a href="#">Logout</a>
+            <a href="#">Profile</a>
+            <a href="#">Notifications</a>
         </ul>
     </div>
 <div class="sidebarnav">
@@ -27,37 +28,37 @@
                 <span><a href="index.html"><span class="highlight-2">STORE MANAGER</span> APP</a></span>
             </div>
             <nav>
-            <ul>
-                <li class="active">
-                    <a href="admin_dashboard.html">
-                        <span><i class="fas fa-home"></i></span>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="products.html">
-                        <span><i class="fas fa-user"></i></span>
-                        <span>Add product</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="update_product.html">
-                        <span><i class="fas fa-edit"></i></span>
-                        <span>Update Product</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="sales_records.html">
-                        <span><i class="fas fa-address-book"></i></span>
-                        <span>View Products</span>
-                    </a>
-                </li>
-                <li>
-                        <a href="sell_products.html">
-                            <span><i class="fas fa-address-book"></i></span>
-                            <span>Sell Products</span>
-                        </a>
-                    </li>
+                    <ul>
+                        <li class="active">
+                            <a href="admin_dashboard.html">
+                                <span><i class="fas fa-home"></i></span>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="products.html">
+                                <span><i class="fas fa-user"></i></span>
+                                <span>Add product</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="product.html">
+                                <span><i class="fas fa-edit"></i></span>
+                                <span>Update Product</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sales_records.html">
+                                <span><i class="fas fa-address-book"></i></span>
+                                <span>Sales Records</span>
+                            </a>
+                        </li>
+                        <li>
+                                <a href="sell_products.html">
+                                    <span><i class="fas fa-address-book"></i></span>
+                                    <span>Sell Products</span>
+                                </a>
+                            </li>
                         <li>
                             <a href="index.html">
                                 <span><i class="fas fa-sign-out-alt"></i></i></span>
@@ -69,14 +70,17 @@
         </div>
 <div class="main-navbar">
 
+            <a href="profile.html">
+                <button class="admin-button"><i class="fas fa-save"></i>&nbsp;Save</button>
+            </a>
        </div>
 <div class="register">
     <div class="order">
-            <h4>View Products : </h4>
+            <h4>View Sales Records: Staff ID(1234)</h4>
             <hr>
                 <table class="tables">
                         <tr>
-                          
+                            <th>Staff Id</th>
                             <th>Product Id</th>
                             <th>Product Name</th>
                             <th>Quantity</th>
@@ -88,6 +92,7 @@
                         </thead>
                         <tbody>
                         <tr>
+                            <td>21</td>
                             <td>1</td>
                             <td>Tissue</td>
                             <td>30</td>
@@ -98,6 +103,7 @@
                         </tr>
 
                         <tr>
+                                <td>23</td>
                                 <td>10</td>
                                 <td>Sugar</td>
                                 <td>100kgs</td>
@@ -108,6 +114,7 @@
                             </tr>
     
                             <tr>
+                                    <td>01</td>
                                     <td>19</td>
                                     <td>Pens</td>
                                     <td>30</td>
@@ -118,6 +125,7 @@
                                 </tr>
         
                                 <tr>
+                                        <td>219</td>
                                         <td>09</td>
                                         <td>Exe Chapati</td>
                                         <td>4 Kgs</td>
