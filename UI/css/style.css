@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding : 0px;
+    background-color:teal;
+}
+#box-one{
+    /**/
+    height: 250px;
+    width: 1000px;
+    top:50%;
+    left: 50%;
+    background-color: black;
+    position: absolute;    
+    border-radius:5px;
+    transform: translate(-50%, -50%);
+}
+#box-two{
+    height:400px;
+    width:450px;
+    top:50%;
+    left: 70%;
+    background-color: whitesmoke;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 5px
+}
+#login{
+    position: absolute;
+    top:50%;
+    left:  70%;
+    transform: translate(-50%, -50%);
+}
+#box-one h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:whitesmoke;
+    padding-left: 5%
+}
+#box-one h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color:whitesmoke;
+    padding-left: 5%
+}
+#login input{
+    height: 50px;
+    width: 300px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+#login button{
+    height: 35px;
+    widows: 100px;
+    background-color:turquoise;
+    font-family: monospace;
+    font-size: 16px;
+    color: antiquewhite;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 250px;
+    text-decoration:none;
+}
+#reset-msg p{
+    font-family: arial;
+    font-size: 14px;
+    color:black;
+    position: absolute;
+    top:100%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+#footer {
+    padding: 20px;
+    background-color: #111;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
