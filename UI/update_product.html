@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Users Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="/css/main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="icon" type="image" href="./img/favicon.ico">
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>    
+    <div class="header">
+        <ul>
+            <a href="index.html">Logout</a>
+          
+        </ul>
+    </div>
+<div class="sidebarnav">
+        <div class="logo">
+                <span><a href="index.html"><span class="highlight-2">STORE MANAGER</span> APP</a></span>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active">
+                        <a href="admin_dashboard.html">
+                            <span><i class="fas fa-home"></i></span>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="products.html">
+                            <span><i class="fas fa-user"></i></span>
+                            <span>Add product</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="update_product.html">
+                            <span><i class="fas fa-edit"></i></span>
+                            <span>Update Product</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="view_products.html">
+                            <span><i class="fas fa-address-book"></i></span>
+                            <span>View Products</span>
+                        </a>
+                    </li>
+                    <li>
+                            <a href="sell_products.html">
+                                <span><i class="fas fa-address-book"></i></span>
+                                <span>Sell Products</span>
+                            </a>
+                        </li>
+                   
+                   
+                    <li>
+                        <a href="index.html">
+                            <span><i class="fas fa-sign-out-alt"></i></i></span>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+<div class="main-navbar">
+
+            <a href="profile.html">
+                <button class="admin-button"><i class="fas fa-save"></i>&nbsp;Save</button>
+            </a>
+       </div>
+<div class="register">
+    <div class="order">
+            <h4>Update Product Details</h4>
+            <hr>
+                    <form>
+                        <ul class="user-form">
+                                <li>
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" placeholder="Enter the name of product">
+                                    </li>
+                                    <li>
+                                        <label for="name">Description</label>
+                                        <input type="text" id="name" placeholder="Enter the product details...">
+                                    </li>
+                                    <li>
+                                        <label for="price">Price</label>
+                                        <input type="text" id="price" placeholder="Enter price">
+                                        </li>
+                                    <li>
+                                        <label for="category">Category</label>
+                                        <select name="category" id="product-categpry" class="form-control">
+                                            <option>Select</option>
+                                            <option>Electronics</option>
+                                            <option>Women Clothing</option>
+                                            <option>Men Clothing</option>
+                                            <option>SmartPhones</option>
+                                            <option>Books</option>
+                                            <option>HOuseHold Items</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <label for="address">Featured?</label>
+                                        <select name="category" id="select" class="form-control">
+                                            <option>No</option>
+                                            <option>Yes</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <label for="image-input">Image</label>
+                                        <input type="file" id="image-input" name="file-input" class="form-control">
+                                    </li>
+                                   
+                                    <li>
+                                        <label for="status">Status</label>
+                                        <select name="category" id="select" class="form-control">
+                                            <option>Active</option>
+                                            <option>Inactive</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <input type="button" value="Save Product">
+                                        <input type="button" value="Reset">
+                                    </li>
+                                </ul>
+                    </form>
+                </div>
+             </div>
+</body>
+</html>
